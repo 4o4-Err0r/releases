@@ -1,0 +1,14 @@
+{
+	"cert_file": "/root/http_server/bin/server.crt",
+	"key_file": "/root/http_server/bin/server.key",
+	"port": "22233",
+
+	"username": "admin",
+	"password": "123456",
+	"config_path": "/root/http_server/config",
+	"web_path": "/root/http_server/www",
+
+	"client_path": "/root/http_server/bin/client",
+	"server_path": "/root/http_server/bin/server",
+	"forward_path": "/root/http_server/bin/forward"
+}

@@ -1,0 +1,17 @@
+http_proxy/http_proxy_linux_armv7.tar.gz filter=lfs diff=lfs merge=lfs -text
+http_proxy/http_proxy_linux_armv8.tar.gz filter=lfs diff=lfs merge=lfs -text
+http_proxy/http_proxy_linux_mips.tar.gz filter=lfs diff=lfs merge=lfs -text
+http_proxy/http_proxy_linux.tar.gz filter=lfs diff=lfs merge=lfs -text
+http_proxy/http_proxy_macos.tar.gz filter=lfs diff=lfs merge=lfs -text
+http_proxy/http_proxy_windows.tar.gz filter=lfs diff=lfs merge=lfs -text
+http_proxy/http_proxy_linux_armv5.tar.gz filter=lfs diff=lfs merge=lfs -text
+socks5_proxy/socks5_proxy_linux_armv7.tar.gz filter=lfs diff=lfs merge=lfs -text
+socks5_proxy/socks5_proxy_linux_armv8.tar.gz filter=lfs diff=lfs merge=lfs -text
+socks5_proxy/socks5_proxy_linux_mips.tar.gz filter=lfs diff=lfs merge=lfs -text
+socks5_proxy/socks5_proxy_linux.tar.gz filter=lfs diff=lfs merge=lfs -text
+socks5_proxy/socks5_proxy_macos.tar.gz filter=lfs diff=lfs merge=lfs -text
+socks5_proxy/socks5_proxy_windows.tar.gz filter=lfs diff=lfs merge=lfs -text
+socks5_proxy/socks5_proxy_linux_armv5.tar.gz filter=lfs diff=lfs merge=lfs -text
+apk/http_proxy.apk filter=lfs diff=lfs merge=lfs -text
+web_mobile/dist.tar.gz filter=lfs diff=lfs merge=lfs -text
+web_pc/dist.tar.gz filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,32 @@
+version: '3.7'
+  services:
+    http-server-demo:
+      restart: always
+      image: "centos:centos8"
+      hostname: http-server-demo
+      ports: '22233:22233'
+      volumes:
+        - './http_server:/root/http_server'
+      command:
+        - '/root/http_server/bin/http_server'
+        - '/root/http_server/res/http_server.json'
+    client-demo:
+      restart: always
+      image: "centos:centos8"
+      hostname: client-demo
+      ports: '22233:22233'
+      volumes:
+        - './http_server:/root/http_server'
+      command:
+        - '/root/http_server/bin/client'
+        - '/root/http_server/res/client.json'
+    server-demo:
+      restart: always
+      image: "centos:centos8"
+      hostname: server-demo
+      ports: '22233:22233'
+      volumes:
+        - './http_server:/root/http_server'
+      command:
+        - '/root/http_server/bin/server'
+        - '/root/http_server/res/server.json'
